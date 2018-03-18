@@ -10,7 +10,7 @@ def leapyr(y):
 
 def score ():
     scr=int(input("Enter Score Grade:"))
-    if scr <0 or scr > 10:
+    if scr <0 or scr > 100:
          print('Score is out of bound')
     elif scr >=70:
         print ('you have scored a 1st')
